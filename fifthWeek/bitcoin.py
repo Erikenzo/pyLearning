@@ -1,8 +1,9 @@
 #task https://cs50.harvard.edu/python/2022/psets/4/bitcoin/
 #notes https://cs50.harvard.edu/python/2022/notes/4/
-import json
 
-import requests, sys, math
+# When running this script from CLI we need to pass number of BTC we want to buy with argv[1] value, it will return calculated price for those units.
+
+import requests, sys
 
 if len(sys.argv) == 2:
     try:
