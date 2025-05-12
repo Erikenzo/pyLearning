@@ -1,4 +1,3 @@
-import csv
 import sys
 
 def checking_file():
@@ -17,11 +16,7 @@ def checking_file():
 def converting_names_and_houses(before_file, after_file):
     with open(before_file) as file:
         for line in file:
-            after = open(after_file, "a")
-            after.write("this is my first line")
-
-            after.close()
-
+            name, house = line.
 
 def main():
     checking_file()
